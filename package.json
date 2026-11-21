@@ -1,0 +1,15 @@
+{
+  "name": "socialdesk",
+  "version": "2.0.0",
+  "private": false,
+  "description": "Free, open-source, self-hosted social media scheduler, auto-publisher and analytics for teams and agencies. Zero dependencies.",
+  "license": "MIT",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22.13" },
+  "keywords": ["social-media", "scheduler", "instagram", "facebook", "tiktok", "linkedin", "bluesky", "mastodon", "self-hosted", "open-source"],
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test tests/"
+  }
+}
